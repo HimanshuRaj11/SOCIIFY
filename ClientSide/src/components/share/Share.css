@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+
+.shareProfileImg{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.share{
+    margin: 10px;
+    width: 96.2%;
+    height: 135px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    box-shadow: -1px 3px 10px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 3px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 10px 0px rgba(0,0,0,0.75);
+}
+
+.shareWrapper{
+    padding: 10px;
+}
+.shareTop{
+    display: flex;
+    align-items: center;
+}
+.shareInput{
+    outline: none;
+    border: none;
+    width: 80%;
+    font-size: 18px;
+    font-family: 'Phudu', cursive;
+    font-weight: 600;
+
+}
+
+.shareInput:focus{
+    outline: none;
+}
+.shareHr{
+    margin: 15px 20px;
+}
+.shareBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shareOptions{
+    display: flex;
+    margin-left: 20px;
+}
+.shareOption{
+    display: flex;
+    align-items: center;
+    margin-right: 13px;
+    cursor: pointer;
+}
+.shareIcon{
+    font-size: 18px;
+    margin-right: 3px;
+}
+.shareButton{
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: rgb(2, 153, 2);
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.shareButton:hover{
+    background-color: rgb(2, 114, 2);
+    box-shadow: 1px 2px 6px 0px rgba(138,134,134,0.75);
+-webkit-box-shadow: 1px 2px 6px 0px rgba(138,134,134,0.75);
+-moz-box-shadow: 1px 2px 6px 0px rgba(138,134,134,0.75);
+}
+.shareOptionText{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.8px;
+}

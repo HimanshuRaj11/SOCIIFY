@@ -1,0 +1,59 @@
+.rightbar{
+    width: 27%;
+    position: absolute;
+    top: 3.36rem;
+    right: 5px;
+}
+.rightbar{
+    padding: 1px;
+    z-index: -1;
+}
+.activeFriendsList{
+    padding: 20px 10px;
+    margin-left: 20px;
+}
+.friendProfile{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.activeFriend{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 10px 0 0 20px;
+}
+.activeStatus{
+    position: absolute;
+    top: -8px;
+    left: 21px;
+    font-size: 24px;
+    color: rgb(26, 245, 26);
+}
+.friendListHr{
+    margin: 10px 5px;
+}
+.friendName{
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+}
+.rightbarAd{
+    margin: 20px 0;
+}
+.adImg{
+    height: 400px;
+    object-fit: fill;
+    width: 350px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}

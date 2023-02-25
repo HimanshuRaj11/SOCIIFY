@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.post{
+    width: 96.2%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: -1px 3px 10px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 3px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 10px 0px rgba(0,0,0,0.75);
+    margin: 10px;
+    margin-top: 20px;
+    height: auto;
+}
+.postWrapper{
+    padding: 10px;
+}
+.postTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.postTopLeft{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.postProfileImg{
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.postUserName{
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 800;
+    margin: 0 10px;
+    color: #000;
+    text-transform: none;
+    font-family: 'Phudu', cursive;
+}
+.postDate{
+    font-size: 14px;
+}
+.postCenter{
+    margin: 0 10px;
+}
+.postText{
+    margin: 30px
+}
+.imagePost{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.postImg{
+    max-height: 500px;
+    max-width: 650px;
+    margin-top: 5px;
+    object-fit: cover;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.postBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.likeIcon{
+    font-size: 25px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.postText, .comment, .postLikeCounter{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.iconLike{
+    color: rgb(7, 43, 248);
+}
+.ThreeVerticalDots{
+    cursor: pointer;
+}

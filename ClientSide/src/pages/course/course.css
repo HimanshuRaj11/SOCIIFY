@@ -1,0 +1,10 @@
+.courseContainer{
+    z-index: -1;
+    width: 82%;
+    position: absolute;
+    top: 3em;
+    right: 5px;
+    height: 100vh;
+    margin-top: 20px;
+    background-color: rgb(229, 255, 0);
+}

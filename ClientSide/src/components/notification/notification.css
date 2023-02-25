@@ -1,0 +1,99 @@
+
+
+
+.NotificationContainer{
+    height:83vh;
+    top: 74px;
+    width: 26%;
+    background-color: rgba(248, 241, 241, 0.952);
+    position: fixed;
+    z-index: 2;
+    padding: 10px;
+    right:17px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 29px 0px rgba(204,202,204,1);
+    -moz-box-shadow: 0px 0px 29px 0px rgba(204,202,204,1);
+    box-shadow: 0px 0px 29px 0px rgba(204,202,204,1);
+
+}
+.Notificationlogo{
+    margin: 0 10px 0 5px;
+}
+.FriendRequestTopRightIconBox{
+    cursor: pointer;
+    padding: 5px;
+    height: 2em;
+    width: 2em;
+    background-color: aliceblue;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.FriendRequestTopRightIcon{
+    font-size: 25px;
+}
+
+.notificationBox{
+    height: 93%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    overflow-y: scroll;
+}
+.notificationBox::-webkit-scrollbar{
+    width: 8px;
+    border-radius: 2px;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    -ms-border-radius:2px;
+    -o-border-radius:2px;
+}
+.notificationBox::-webkit-scrollbar-track{
+    background-color: #f1f1f1;
+}
+.notificationBox::-webkit-scrollbar-thumb{
+    background: rgb(182, 181, 181);
+}
+.notificationCard{
+    cursor: pointer;
+    background-color: rgb(209, 212, 212);
+    height: 5em;
+    margin: 5px 2px;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.DeleteNotificationIcon{
+    font-size: 30px;
+    cursor: pointer;
+}
+.DeleteNotificationIcon:hover{
+    color: rgb(255, 51, 0);
+
+}
+.LogoNotificationImage{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
