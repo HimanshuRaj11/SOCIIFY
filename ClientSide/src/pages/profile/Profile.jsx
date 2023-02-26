@@ -8,7 +8,7 @@ import {PostUser1} from '../../DummyUsersPost'
 
 export default function Profile({match}) {
   // const {id} = useParams();
-  const User = Users.filter((u=>u.id===5))
+  const User = Users.filter((u=>u.id===7))
 
   const UserName = User[0].username;
   const coverPic = User[0].CoverPic;
