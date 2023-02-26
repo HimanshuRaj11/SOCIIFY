@@ -58,11 +58,20 @@
 .sidebarButton:hover{
     background-color: rgba(224, 224, 224, 0.966);
 }
+.active >.sidebarIcon{
+    color: #000;
+}
 .sidebarHr{
     margin: 20px 0;
 
 }
-
+.active{
+    color: #000 !important;
+}
+.decibelSidebar{
+    align-items: center;
+    font-size: 18px;
+}
 .sidebarListItemText{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 600;

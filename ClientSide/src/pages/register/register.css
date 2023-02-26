@@ -12,7 +12,11 @@
     height: 70%;
     display: flex;
   }
-  
+  .RegisterForm{
+    width: 25em;
+    height: auto;
+    display: flex;
+  }
   .registerLeft,
   .registerRight {
     flex: 1;
@@ -79,6 +83,8 @@
       background-color: #42b72a;
       color: white;
       font-size: 20px;
+      text-align: center;
       font-weight: 500;
+      margin-top: 20px;
       cursor: pointer;
   }

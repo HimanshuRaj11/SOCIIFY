@@ -11,7 +11,9 @@ import Videos from "./pages/videos/Videos";
 import Groups from "./pages/groups/Groups"
 import Events from "./pages/events/Events"
 import Job from "./pages/job/Job";
-
+import Course from './pages/course/Course'
+import FriendList from "./pages/friendList/FriendList";
+import NotAvailable from "./pages/NotAvailable/NotAvailable";
 function App() {
   return (
     <>
@@ -21,14 +23,16 @@ function App() {
         <div className="container">
           <Routes>
             <Route excat path="/" element={<Home />} />
-            <Route path="/profile" element={<Profile />} />
+            <Route path="/profile/:id" element={<Profile />} />
             <Route path="/register" element={<Register />} />
             <Route path="/login" element={<Login />} />
             <Route path="/videos" element={<Videos />} />
             <Route path="/groups" element={<Groups />} />
             <Route path="/events" element={<Events />} />
-            <Route path="/job" element={<Job />} />
-            <Route path="/cource" element={<Job />} />
+            <Route path="/friends" element={<FriendList />} />
+            {/* <Route path="/job" element={<Job />} /> */}
+            {/* <Route path="/cource" element={<Course />} /> */}
+            <Route excat path="*" element={<NotAvailable />} />
           </Routes>
         </div>
       </Router>

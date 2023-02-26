@@ -4,14 +4,18 @@ import './Topbar.css'
 import FriendRequest from '../friendRequest/FriendRequest'
 import Chat from '../chat/Chat'
 import Notification from '../notification/Notification'
+import {Users} from '../../DummyData'
 
 import {BsSearch , BsPersonFill , BsFillChatLeftTextFill} from 'react-icons/bs'
 import {MdNotificationsActive} from 'react-icons/md';
 
 export default function Topbar() {
+    const Profile = Users.filter((u=>u.id===1))
+    const ProfilePic = Profile[0].profilePic;
+
+    
     const [toggle, setToggle] = useState(false)
     const [toggleChat, setToggleChat] =useState(false)
-
     const [toggleNotification, setToggleNotification] =useState(false)
 
     const ToggleFriendReqest = ()=>{
@@ -70,7 +74,7 @@ export default function Topbar() {
                     <MdNotificationsActive onClick={ToggleNotification}/> <span className="topbariconBadge">1</span>
                 </div>
             </div>
-            <NavLink to="/profile"><img src="/assets/person/p1.jpg" alt="ProfileImage" className='ProfilePic'/></NavLink>
+            <NavLink to="/profile/1"><img src={ProfilePic} alt="ProfileImage" className='ProfilePic'/></NavLink>
         </div>
     </div>
     {toggle ? <FriendRequest toggleF={ToggleFriendReqest} /> : null }

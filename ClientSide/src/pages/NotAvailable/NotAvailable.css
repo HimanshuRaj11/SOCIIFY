@@ -1,0 +1,22 @@
+.NotAvailable{
+    z-index: -1;
+    width: 80%;
+    position: absolute;
+    top: 3em;
+    left: 16em;
+    height: 88vh;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.centerDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.notPage{
+    font-size: 40px;
+    color: rgb(155, 147, 147);
+}

@@ -1,10 +1,9 @@
 .jobContainer{
     z-index: -1;
-    width: 82%;
+    width: 54%;
     position: absolute;
     top: 3em;
-    right: 5px;
-    height: 100vh;
+    left: 16em;
+    height: auto;
     margin-top: 20px;
-    background-color: rgb(179, 255, 0);
 }

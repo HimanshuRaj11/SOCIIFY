@@ -1,10 +1,67 @@
 .eventsContainer{
     z-index: -1;
-    width: 82%;
+    width: 54%;
     position: absolute;
     top: 3em;
-    right: 5px;
-    height: 100vh;
+    left: 16em;
+    height: auto;
     margin-top: 20px;
-    background-color: rgb(32, 94, 94);
+}
+.eventsList{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 100%;
+}
+.eventCard{
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.eventCard:hover{
+    box-shadow: 2px 2px 12px 0px rgba(184,177,177,0.75);
+-webkit-box-shadow: 2px 2px 12px 0px rgba(184,177,177,0.75);
+-moz-box-shadow: 2px 2px 12px 0px rgba(184,177,177,0.75);
+}
+
+.eventProfileImg{
+    height: 8em;
+    width: 8em;
+    margin: 2px 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.eventsDetail{
+    margin: 2px 10px;
+    width: 30em;
+    height: 8em;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.eventsDetailTital{
+    font-size: 22px;
+    font-weight: 600;
+}
+.eventsDetailUploadedBy{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.eventsView{
+    margin-right: 20px;
+
 }
